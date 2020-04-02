@@ -7,7 +7,7 @@
     "location",
     "geolocation"
   ],
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "henry",
   "repository": {
     "type": "git",
@@ -18,9 +18,10 @@
     "lib/js",
     "lib/ios",
     "lib/android/src",
-    "lib/android/build.gradle"
+    "lib/android/build.gradle",
+    "src"
   ],
-  "main": "lib/js",
+  "main": "src",
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
